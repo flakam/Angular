@@ -5,12 +5,16 @@ import { WeatherDataService } from './weather-service.service'
 import { FormsModule } from '@angular/forms'
 import { AppComponent } from './app.component';
 import { ResultComponentComponent } from './result-component/result-component.component';
+import { HeaderComponentComponent } from './header-component/header-component.component';
+import { SearchComponentComponent } from './search-component/search-component.component';
 //import { FormComponentComponent } from './form-component/form-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ResultComponentComponent,
+    HeaderComponentComponent,
+    SearchComponentComponent,
   //  FormComponentComponent
   ],
   imports: [
