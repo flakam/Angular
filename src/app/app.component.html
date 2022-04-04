@@ -1,6 +1,8 @@
 
 <app-result-component></app-result-component>
 <app-form-component></app-form-component>
-<app-result-component #display></app-result-component>
-<app-form-component (onSelection)="display.update($event)"></form-component>
+<app-result-component #FormComponent></app-result-component>
+<app-form-component (onSelection)="FormComponent.update($event)"></app-form-component>
 <app-result-component></app-result-component>
+<app-header-component></app-header-component>
+<app-search-component></app-search-component>
